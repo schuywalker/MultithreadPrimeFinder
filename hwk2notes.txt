@@ -1,0 +1,30 @@
+javac src/edu/ewu/ytian/prime/*.java     
+java -cp ./bin/ edu.ewu.ytian.prime.MyPrimeTest 1 1 100   
+
+java -cp ./bin/ edu.ewu.ytian.prime.MyPrimeTest 1 0 100
+Time cost of serial code: 1 ms.
+Time cost of parallel code: 0 ms.
+The speedup ration is by using concurrent programming: Infinity. 
+
+java -cp ./bin/ edu.ewu.ytian.prime.MyPrimeTest 5 0 1000000
+Time cost of serial code: 112 ms.
+Time cost of parallel code: 35 ms.
+The speedup ration is by using concurrent programming:  3.20. 
+Number prime found by serial code is: 78498
+Number prime found by parallel code is 78498
+
+❯ java -cp ./bin/ edu.ewu.ytian.prime.MyPrimeTest 20 0 1000000
+Time cost of serial code: 118 ms.
+Time cost of parallel code: 32 ms.
+The speedup ration is by using concurrent programming:  3.69. 
+
+
+❯ java -cp ./bin/ edu.ewu.ytian.prime.MyPrimeTest 100 0 1000000
+Time cost of serial code: 133 ms.
+Time cost of parallel code: 32 ms.
+The speedup ration is by using concurrent programming:  4.16. 
+
+java -cp ./bin/ edu.ewu.ytian.prime.MyPrimeTest 1000 0 1000000
+Time cost of serial code: 107 ms.
+Time cost of parallel code: 57 ms.
+The speedup ration is by using concurrent programming:  1.88. 
