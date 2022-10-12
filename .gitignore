@@ -4,3 +4,6 @@
 *.iml
 *.txt
 
+org.eclipse.jdt.core.prefs
+.classpath
+.project
