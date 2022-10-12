@@ -1,10 +1,12 @@
-javac src/edu/ewu/ytian/prime/*.java     
-java -cp ./bin/ edu.ewu.ytian.prime.MyPrimeTest 1 1 100   
+Schuyler Asplin
+CSCD 467 Parellel & Cloud Computing
+Many thanks to Professor Tian (who built the framework for this assignment)
 
-java -cp ./bin/ edu.ewu.ytian.prime.MyPrimeTest 1 0 100
-Time cost of serial code: 1 ms.
-Time cost of parallel code: 0 ms.
-The speedup ration is by using concurrent programming: Infinity. 
+From the THREADEDPRIMEHW2STUDENT directory:
+Compiling: javac src/edu/ewu/ytian/prime/*.java     
+Running: java -cp ./bin/ edu.ewu.ytian.prime.MyPrimeTest 1 1 100   
+
+sample outputs:
 
 java -cp ./bin/ edu.ewu.ytian.prime.MyPrimeTest 5 0 1000000
 Time cost of serial code: 112 ms.
