@@ -1,8 +1,11 @@
 Schuyler Asplin
 CSCD 467 Parellel & Cloud Computing
+
 Many thanks to Professor Tian (who built the framework for this assignment)
 
+
 From the THREADEDPRIMEHW2STUDENT directory:
+
 Compiling: javac src/edu/ewu/ytian/prime/\*.java  
 Running: java -cp ./bin/ edu.ewu.ytian.prime.MyPrimeTest 1 1 100
 
